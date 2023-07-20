@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 43));
+}
+
+.wrapper {
+    display: flex;
+}
+
+.card {
+    position: absolute;
+    top: 17%;
+    left: 37%;
+    font-family: serif;
+    height: 24rem;
+    width: 20rem;
+    padding: 1.3rem;
+    background-color: azure;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input {
+    border-image: linear-gradient(90deg, rgb(0, 0, 255), rgb(255, 0, 43)) 1;
+    margin-bottom: 1.7rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    width: 15rem;
+}
+
+#signup {
+    transform: rotate(7deg);
+}
+
+.but {
+    margin-bottom: 1.7rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+    width: 15rem;
+    width: 15.6rem;
+    background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 43));
+    color: azure;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.swap {
+    all: unset;
+    color: rgb(244, 69, 98);
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
